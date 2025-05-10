@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+  font-family: "Poppins", sans-serif;
+*/
+*{
+   margin: 0;
+   padding: 0;
+}
+
+image{
+    display: block;
+}
+
+ul li{
+    list-style-type: none;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1560px;
+    margin: auto;
+}
+h1,h2,h3{
+    padding: 0;
+    margin: 0;
+}
+.panel{
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+/*----------------------------*/
+.pageheader{
+    background: url("../images/bannerimage.png") no-repeat 100% 50% #fff;
+    height: 1000px;
+    background-size: cover;
+    position: relative;
+    
+}
+
+
+.navigations .container{
+    display: flex;
+    justify-content: space-between;
+}
+.navigations .logo{
+    padding-top: 30px;
+}
+
+.mainnav ul{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    gap: 33px;
+    padding-top: 45px; 
+
+}
+
+.mainnav ul a{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+
+
+}
+.mainnav a.btn{
+   
+    background-color: #2d111f;
+    padding: 8px 32px;
+    border: solid 1px;
+    font-size: 18px;
+}
+.mainnav ul a:hover{
+    color: #d2cf8d;
+}
+
+.mainnav ul li i{
+    color: #fff;
+
+}
+.bannerContent h1{
+    font-size: 90px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 500px;
+    margin-bottom: 80px;
+}
+
+.search .container .frm{
+    background-color: #fff;
+    display: flex;
+    justify-content: right;
+    font-size: 20px;
+    height: 73px;
+}
+
+
+
+.search .frm label{
+    border-right: solid 1px #000;
+    padding: 25px;
+}
+
+.search .frm label:last-of-type{
+    border-right: solid 0 #000;
+    padding: 0;
+
+}
+
+.search .frm input[type=date], .search .frm select{
+    font-size: 20px;
+    border: 0;
+}
+
+.frm input.searchBtn{
+    background-color: #966d73;
+    color: #fff;
+    height: 73px;
+    width: 100%;
+    display: block;
+    border: 0;
+    padding: 0 30px;
+    font-size: 20px;
+  
+}
+
+.discover .container{
+    text-align: center;   
+}
+h2{
+    font-size: 90px;
+    color: #966d73;
+    font-weight: 400;
+   
+}
+p{
+    font-size: 30px;
+    color: #959796;
+    text-align: center;
+    padding: 45px 155px;
+    font-weight: 100;
+}
+
+h3{
+    font-size: 30px;
+    color: #966d73;
+    text-align: center;
+    font-weight: 200;
+    padding-bottom: 70px;
+
+}
+.discover .imagearea{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 90px;
+   margin-bottom: 50px;
+  
+}
+
+.discover .imagearea img{
+    margin-bottom: 64px;
+}
+
+
+.discover .btn{
+    background-color: #966d73;
+    color: #fff;
+    font-size: 30px;
+    padding: 20px 35px;
+}
+
+.discover .imagearea div{
+    position: relative;
+    top: 0;
+    transition: all 1s;
+}
+.discover .imagearea div:hover{
+    top: -75px;
+}
+
+.Hotel .menu ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fdfeff;
+    border: solid 1px #b9a1a5;
+    padding: 35px 100px;
+    
+}
+.Hotel .menu ul a{
+    color: #966d73;
+    font-size: 30px;
+
+}
+
+.share ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+    
+}
+.share ul li{
+    font-size: 24px;
+    color: #c3c3c3;
+    
+}
+.share ul li span{
+    padding-right: 20px;
+    padding-top: 10px;
+   
+}
+.share h2{
+    font-size: 72px;
+    text-align: center;
+  
+}
+.share h4{
+    color: #966d73;
+   text-align: center;
+   font-size: 30px;
+   font-weight: 200;
+   padding-bottom: 100px;
+   position: relative;
+}
+
+.Taj .container .inside{
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px  #000;
+    margin: 40px 0;
+  
+
+}
+.Taj .container .inside img{
+    display: block;
+    
+}
+.Taj .container .inside figure{
+    padding: 10px;
+}
+
+.inside .textarea{
+    position: relative;
+    width: 900px;
+    height: 340px;
+    padding: 30px 70px;
+}
+
+.textarea h3{
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 0;
+}
+.textarea i{
+    margin-top: 10px;
+}
+.textarea i span{
+    font-family: "Poppins", sans-serif;
+    color: #5c5f5f;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+h4{
+    position: absolute;
+    font-size: 18px;
+    color: #966d73;
+    font-weight: 200;
+    top: 40px;
+    right: 70px;
+
+   
+}
+.textarea .location{
+    display: flex;
+    justify-content: space-between;
+}
+
+.textarea p{
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    color: #5c5f5f;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0;
+    margin: 12px 0;
+}
+h4 span{
+    position: absolute;
+    font-size: 24px;
+    color: #000;
+    font-weight: 500;
+    top: 35px;
+    right: 0px;
+}
+.contact{
+    width: 734px;
+    border-bottom: solid 2px  #c3c3c3 ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contact i{
+    padding: 15px 0;
+}
+.contact i span{
+    color: #966d73;
+    font-size: 18px; 
+}
+.Colonial{
+    display: flex;
+    justify-content: space-between;
+    width: 584px;
+    border-bottom: solid 2px  #c3c3c3 ;
+    padding: 10px 0;
+    font-size: 16px
+   
+}
+.Colonial ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  
+}
+
+.Colonial ul li span{
+    font-size: 16px;
+    color: #5c5f5f;
+    padding-left: 10px;
+}
+
+.visit ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+   
+}
+.visit ul li{
+    color: #966d73;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+  
+}
+.visit ul li span{
+    border-bottom: solid 1px #966d73;
+    margin-right: 5px;
+}
+
+.visit ul li a{
+    color: #fff;
+    background-color: #966d73;
+    padding: 10px 15px;
+    list-style-type: none;
+    font-size: 14px;
+
+}
+
+.unparalelled h2{
+    font-size: 60px;
+    text-align: center;
+}
+.unparalelled li h3{
+    color: #966d73;
+}
+
+.unparalelled p span{
+    font-size: 22px;
+    text-align: center;
+    color:  #c3c3c3;
+}
+
+.unparalelled ul{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+
+.unparalelled ul img{
+    padding-top: 20px;
+}
+
+.unparalelled ul li .textarea h3{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding: 40px 0 0 0;
+    color: #966d73;
+}
+.unparalelled ul li .textarea p{
+    padding: 5px 0 30px 0;
+    font-size: 16px;
+    font-weight: 300;
+    width: 350px;
+
+}
+a.btn{
+    background-color: #966d73;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 22px;
+    margin-bottom: 50px;
+    font-family: "Poppins", sans-serif;
+    
+}
+.links{
+    background-color: #5a4958;
+    padding: 120px 0;
+    margin: 40px 0;
+   
+}
+.links .container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   
+   
+}
+.links h3{
+    text-align: left;
+    color: #fff;
+    
+  
+}
+.links a{
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 50px;
+    font-weight: 200;
+
+}
+.footerbottom h2{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 68px;
+}
+
+.footerbottom img{
+    padding: 50px 0 10px 0;
+    display: block;
+    margin: auto;
+}
+.footerbottom .tajhotels{
+   background-color: #5a4958;
+   color: #fff;
+   height: 80px;
+}
+.footerbottom h3{
+    font-size: 36px;
+    color: #fff;
+    padding: 20px 0;
+}
+    
+
+
+
+
+
+
+
